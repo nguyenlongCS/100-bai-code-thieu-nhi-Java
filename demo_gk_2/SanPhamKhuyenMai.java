@@ -14,6 +14,8 @@ public class SanPhamKhuyenMai extends SanPham {
     @Override
     public double giaTriTonKho() {
         return super.giaTriTonKho() * (1 - giaGiam / 100);
+        // this.method() gọi method của chính class hiện tại (vẫn đúng)
+        // super.method() gọi method của class cha
     }
 
     @Override

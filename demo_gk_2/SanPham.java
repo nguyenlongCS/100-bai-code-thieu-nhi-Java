@@ -12,15 +12,28 @@ public class SanPham {
     private double donGia;
     private int soLuong;
 
-    {
-        dem++;
-        if (dem > 9999) {
-            throw new IllegalStateException("San pham da day");
-        }
-        maSP = String.format("SP-%04d", dem);
-    }
-
+//    {
+//        dem++;
+//        if (dem > 9999) {
+//            throw new IllegalStateException("San pham da day");
+//            // Nếu dem > 9999 → ném lỗi (quá nhiều sản phẩm)
+//        }
+//        maSP = String.format("SP-%04d", dem);
+//    }
+//
+//    public SanPham(String tenSP, Date ngayNhap, double donGia, int soLuong) {
+//        this.tenSP = tenSP;
+//        this.ngayNhap = ngayNhap;
+//        this.donGia = donGia;
+//        this.soLuong = soLuong;
+//    }
+    // cách 2:
     public SanPham(String tenSP, Date ngayNhap, double donGia, int soLuong) {
+        if (++dem > 9999) {
+            System.out.println("Vuot qua 9999 san pham");
+            System.exit(0);
+        }
+        this.maSP = String.format("SP-%04d", dem);
         this.tenSP = tenSP;
         this.ngayNhap = ngayNhap;
         this.donGia = donGia;
@@ -33,6 +46,7 @@ public class SanPham {
 
     public int soSanh(SanPham sp) {
         return Double.compare(this.giaTriTonKho(), sp.giaTriTonKho());
+        //compare là so sánh 2 số
     }
 
     @Override
