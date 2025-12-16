@@ -1,0 +1,12 @@
+// SanPham: tenSP, ngayNhapKho, donGia, soLuong
+// SanPhamKhuyenMai: tenSP, ngayNhapKho, donGia, soLuong, giaGiam
+Dien thoai Samsung Galaxy A15, 25/09/2025, 4650000, 30, 10
+Laptop Dell Inspiron 3520, 12/10/2025, 16500000, 24
+Tai nghe Bluetooth Sony CH520, 05/09/2025, 1450000, 58
+Ban phim co Logitech G413, 20/08/2025, 1290000, 37
+May tinh bang Lenovo Tab M10, 14/08/2025, 5650000, 20, 15
+Man hinh Samsung 27inch, 28/07/2025, 4350000, 15
+Chuot khong day Rapoo M160, 03/10/2025, 250000, 62
+Tai nghe khong day Apple AirPods, 02/09/2025, 3990000, 18, 20
+Loa Bluetooth JBL Go 3, 18/09/2025, 950000, 44
+Man hinh LG UltraGear, 30/10/2025, 5900000, 12, 15
