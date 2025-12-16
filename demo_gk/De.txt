@@ -1,0 +1,16 @@
+Một game đặt bom cho phép tạo các vật phẩm khi người chơi điều khiển nhân vật ăn vật phẩm. 
+Nhân vật trong trò chơi bao gồm thông tin mã nhân vật (số nguyên tăng dần), và tên nhân vật và danh sách các vật phẩm ăn được. 
+Mỗi vật phẩm có mã vật phẩm (kiểu chuỗi), tuỳ vào loại vật phẩm ăn sẽ có những tác dụng khác nhau.
+- Vật phẩm tăng lượt chơi: người chơi ăn phẩm loại này sẽ tăng số lượt chơi trong trò chơi theo một giá trị chỉ định lúc tạo vật phẩm. 
++ Mã vật phẩm có 3 ký tự bắt đầu là A, 2 ký tự sau là số nguyên tăng dần, chẳng hạn A01, A02, A03.
+- Vật phẩm tăng máu: người chơi ăn vật phẩm này sẽ tăng máu cho lượt đang chơi theo một giá trị máu được chỉ định khi tạo vật phẩm. 
++ Mã vật phẩm có 3 ký tự bắt đầu B, 2 ký tự sau là số nguyên tăng dần, chẳng hạn B01, B02, B03.
+Viết chương trình quản lý nhân vật và các vật phẩm trong trò chơi.
+1. Thêm nhân vật vào danh sách.
+2. Thêm vật phẩm cho nhân vật.
+3. Hiển thị thông tin nhân vật và thông tin các vật phẩm nhân vật đang có.
+4. Xác định tổng số lượt chơi của nhân vật (theo mã nhân vật).
+5. Sắp xếp giảm dần các nhân vật (theo số lượng vật phẩm).
+6* Sắp xếp tăng dần các nhân vật (theo số lượng vật phẩm).
+Viết phương thức main () kiểm tra các chức năng trên.
+Yêu cầu chương trình thiết kế dễ dàng mở rộng các loại vật phẩm vào trò chơi và hạn chế sửa chương trình đang hoạt động.
